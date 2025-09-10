@@ -24,5 +24,7 @@ const validateForm = (event) => {
     return false;
   }
   console.log("Secret Password");
+  //change image on success
+  document.getElementById("myImage").src = "https://st3.depositphotos.com/2766632/32422/i/450/depositphotos_324220968-stock-photo-silhouette-cheerful-people-jumping-on.jpg";
   return true;
 };
