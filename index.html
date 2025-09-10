@@ -6,16 +6,17 @@
     <title>Document</title>
   </head>
   <body>
-    <form id="myForm">
-      <label for="fname">First Name:</label>
+    <form name="myForm" onsubmit="return validateForm(event)">
+      <label for="fname">First name: </label>
       <input type="text" id="fname" name="fname" required />
-      <label for="sname">Surename:</label>
+      <label for="sname">Surname: </label>
       <input type="text" id="sname" name="sname" required />
-      <label for="pcode">Postcode:</label>
+      <label for="pcode">Postcode: </label>
       <input type="text" id="pcode" name="pcode" required />
-      <input type="button" value="submit" />
+      <button type="submit">Submit</button>
     </form>
-
-    <script src="index.js"></script>
+    
+    
+    <script src="index.js" defer></script>
   </body>
 </html>
